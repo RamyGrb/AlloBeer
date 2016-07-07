@@ -1,0 +1,41 @@
+<ion-view view-title="Compte">
+  <ion-content class="padding">
+    <ion-list>
+        
+    <div class="card">
+        
+        <div class="item item-divider">
+        <p>Gérer Cartes de Crédit</p>
+        </div>
+
+        <ion-toggle ng-model="localisation.checked" ng-change=activationLocalisation()>
+        <p>Localisation</p>
+        </ion-toggle>
+
+        <div class="item item-divider">
+        <p> {{localisation.checked}} </p>
+        </div>    
+
+        <div class="item item-divider">
+        <p>Déconnexion</p>
+        </div>
+        
+    </div>  
+    
+    <div class="card">
+        
+      <div class="item item-divider">
+        Informations Ionic
+      </div>
+        
+      <div class="item item-text-wrap">
+        <p>Plateforme : {{info.platform}}</p>
+        <p>Version : {{info.version}}</p>
+      </div>
+        
+    </div>
+    
+        
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,32 @@
+<ion-view view-title="Resto">
+  <ion-content class=padding>
+    <ion-list>
+        
+        <div class="card">
+        <div class="item item-text-wrap">
+        <icon-item class="item item-icon-left">
+        <i class="icon ion-pinpoint"></i>
+        </a>Géolocalisez vous
+        </icon-item>
+        </div>
+        </div>
+        
+        <div class="card">
+            
+            <div>
+              <label class="item-input">
+                  <input type="text" placeholder="Recherchez un bar" ng-model="search">
+                  <button class="button icon ion-search" ng-click="loadWeather(search)"></button>
+              </label>
+            </div>
+
+            <ion-item ng-repeat="item in liste">
+                {{item.nom}}<p>{{item.adresse}}</p>
+                <
+            </ion-item>
+            
+        </div>
+        
+    </ion-list>  
+  </ion-content>
+</ion-view>
