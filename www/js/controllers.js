@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 .controller('RestoCtrl', function($scope) {
     $scope.liste = [
-        {id: 1, nom: 'Resto 1', adresse: 'Adresse 1, 75001'},
+        {id: 1, nom: 'Restaucalme', adresse: 'Adresse 1, 75001'},
         {id: 2, nom: 'Resto 2', adresse: 'Adresse 2, 75002'},
         {id: 3, nom: 'Resto 3', adresse: 'Adresse 3, 75003'},
         {id: 4, nom: 'Resto 4', adresse: 'Adresse 4, 75004'},
