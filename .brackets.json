@@ -1,5 +1,7 @@
 {
     "jscodehints.detectedExclusions": [
-        "/Users/Ramy/Desktop/Ramy/Work/Billy/Node/FoodMe_Test/AlloBeer/plugins/cordova-plugin-device/src/tizen/DeviceProxy.js"
+        "/Users/Ramy/Desktop/Ramy/Work/Billy/Node/FoodMe_Test/AlloBeer/plugins/cordova-plugin-device/src/tizen/DeviceProxy.js",
+        "/Users/Ramy/Desktop/Ramy/Work/Billy/Node/FoodMe_Test/AlloBeer/plugins/cordova-plugin-device/src/ubuntu/device.js",
+        "/Users/Ramy/Desktop/Ramy/Work/Billy/Node/FoodMe_Test/AlloBeer/plugins/cordova-plugin-device/src/windows/DeviceProxy.js"
     ]
 }

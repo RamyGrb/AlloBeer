@@ -41,6 +41,8 @@ angular.module('starter.controllers', [])
     ];
 })
 
+.controller('BarmanCtrl', function($scope) {})
+
 .controller('CompteCtrl', function($scope) {
     $scope.localisation = { checked: true};
     $scope.activationLocalisation = function() {
